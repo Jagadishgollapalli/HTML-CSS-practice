@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        margin: 40px;
+    }
+    input[type=text]{
+        border-radius: 4px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    }
+    input[type=number]{
+        border-radius: 4px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    }
+    input[type=submit]{
+        border-radius: 4px;
+        background-color: lime;
+        font-weight:bold;
+    }
+    input[type=submit]:hover{
+        background-color: rgb(8, 177, 255);
+    }
+</style>
+<body>
+    <form>
+        <label for="Name">Name:</label><br>
+        <input type="text" name="Name" value="Firstname"><br>
+        <label for="Name">Email:</label><br>
+        <input type="text" name="Email" value="Lastname" ><br>
+        <label>Gender:</label>
+        <input type="radio" name="Male" value="male" >
+        <label for="Name">Male</label>
+        <input type="radio" name="Male" value="female" >
+        <label for="Name">Female</label><br>
+        <label for="Name">Phone Number:</label><br>
+        <input type="number" name="Number" value="987654321" ><br>
+        <label for="Name">Dob:</label><br>
+        <input type="text" name="Name" value="02-02-21" ><br><br>
+        <input type="submit" name="Name" value="submit" ><br>
+    </form>
+</body>

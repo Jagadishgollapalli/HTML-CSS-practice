@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+body{
+   width:510px;
+   height:320px;
+   border:3px solid black;
+}
+input{
+    border:none;
+    background:rgb(243, 243, 190);
+    border-bottom: 2px solid black;
+}
+h2{
+    text-align: center;
+    background-color: red;
+}
+</style>
+
+<body>
+    <div style="margin: 20px;"> 
+        <h2>Yes! I want to subscribe to <i>Mag-O-Zine</i></h2>
+
+        <label for="fname">Firstname</label>
+        <input type="text" id="fname"text="firstname">
+
+        <label for="lname">Lastname</label>
+        <input type="text" id="lname"text="lastname">
+    </div>
+    <div style="margin: 20px;">
+        <label for="address">Address</label>
+        <input type="text" id="Address"text="address"size="58">
+    </div>
+    <div style="margin: 20px;">
+        <label for="cty">city</label>
+        <input type="text" id="cty"text="City"size="13">
+
+        <label for="st">state</label>
+        <input type="text" id="st"text="state"size="13">
+
+        <label for="zp">zip</label>
+        <input type="text" id="zp"text="zip"size="16">
+    
+        <h4>Subscribe for: 
+            <input type="checkbox" name="1year">
+            <label for="y1">1year($19.95)</label>
+    
+            <input type="checkbox" name="2years">
+            <label for="y2">2years($35)</label></h4>
+    
+
+        <h4>Send me more information about:
+            <div><input type="checkbox" name="Computer-zine">
+                <label for="cz">Computer-Zine</label></div>
+        <div> <input type="checkbox" name="Fishing-Zine">
+            <label for="fz">Fishing-Zine</label></div>
+       <div><input type="checkbox" name="Cat-o-Zine">
+        <label for="coz">Cat-o-Zine</label></h4></div>
+    </div>
+</body>
+</html>
